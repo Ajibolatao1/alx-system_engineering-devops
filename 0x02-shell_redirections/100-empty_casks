@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -o -type d -empty -print | while read file; do basename "$file"; done
+find . -type f -empty -o -type d -empty
