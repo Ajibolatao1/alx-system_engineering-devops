@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=16; $number" | bc
+print "%X\n" $number
